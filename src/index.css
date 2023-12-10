@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg {
+  background: linear-gradient(rgb(0 0 0 / 66%), rgb(0 0 0 / 63%)),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/c906271d-7184-4eec-83c9-b6d4c1a068ec/728874a6-eeda-400a-9bcf-a935a1408a4f/IN-en-20231127-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+}
